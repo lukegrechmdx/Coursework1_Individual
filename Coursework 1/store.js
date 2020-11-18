@@ -4,7 +4,7 @@ var webstore = new Vue({
         showClasses: true,
         sitename: 'After School Classes',
         cart: [], //Array to store items in shopping cart
-        navButtonName: "Cart and Checkout",
+        navButtonName: "Cart and Checkout", //Variable to change button name on page navigation
         sortType:'', //Variable for the sorting type
         order: {
             firstName: "",
