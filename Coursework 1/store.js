@@ -6,6 +6,7 @@ var webstore = new Vue({
         cart: [], //Array to store items in shopping cart
         navButtonName: "Cart and Checkout", //Variable to change button name on page navigation
         sortType:'', //Variable for the sorting type
+        //Order details object
         order: {
             firstName: "",
             lastName: "",
