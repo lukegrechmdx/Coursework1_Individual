@@ -18,7 +18,7 @@
                 <li class="dropdown" style='float:left'>
                     <a href="javascript:void(0)" class="dropbtn">Sort Classes</a>
                     <div class="dropdown-content">
-                        <!-- Sorting oprions in dropdown Menu -->
+                        <!-- Sorting options in dropdown Menu -->
                         <button id="priceAscending" @click="sort('priceAscending')">Price Ascending</button>
                         <button id="scoreDescending" @click="sort('priceDescending')">Price Descending</button>
                         <button id="subjectAscending" @click="sort('subjectAscending')">Subject Ascending</button>
@@ -107,7 +107,8 @@
                 <p>Phone Number: {{order.phone}}</p> 
                 <p>Gift: {{order.gift}}</p>
                 <p>Method: {{order.method}}</p>
-
+                
+                <!-- Displaying the Checkout Buttton Only when the First Name, Last Name and Phone Inputs are filled -->
                 <button @click="submitForm()" v-if="checkForm(order.firstName, order.lastName, order.phone)" class="submit-checkout-btn">Place Order</button>
                 <button disabled ='disabled' style='display:none' v-else>Place Order</button> 
             </form>
