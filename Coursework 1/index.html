@@ -53,6 +53,7 @@
                         <h3 v-else-if="afterSchoolClass.availableSpaces - cartCount(afterSchoolClass.id) < 4" style='color:#d96609'>
                             Only {{afterSchoolClass.availableSpaces - cartCount(afterSchoolClass.id)}} Places Left!
                         </h3>
+                        <!-- Displaying that there are free class spaces to be booked -->
                         <h3 v-else style='color: #329e08'>Places Available!</h3>
                     <!-- The button will display when 'Add to Cart is True -->                        
                     <!--When we click the Add To Cart are now passing the afterSchoolClass and its ID to the function as parameters-->
