@@ -38,7 +38,7 @@ var webstore = new Vue({
         },
         showCheckout: function(){
             this.showClasses = this.showClasses ? false : true;
-            this.showCart();
+            this.showCart(); //Calling the 'showCart' function to display the cart below the checkout section
             //Changing button name for navigation between classes and cart/checkout
             if (this.showClasses == false){
                 this.navButtonName = "Classes";
