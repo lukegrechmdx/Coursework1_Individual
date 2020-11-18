@@ -1,3 +1,4 @@
+//Classes that will be displayed
 let classes = [
     {
         "id": 1,
